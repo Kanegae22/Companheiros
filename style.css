@@ -1,0 +1,143 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: #fff8f0;
+}
+
+
+.menu {
+    position: fixed;
+    width: 100%;
+    background: #1d1d1d;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #ff4d6d;
+    font-weight: bold;
+}
+
+.links a {
+    color: white;
+    margin-left: 20px;
+}
+
+
+.banner {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url("namoro.gif");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+
+section {
+    padding: 80px 40px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    border-radius: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.2);
+}
+
+
+.principal {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    background: black;
+}
+
+
+.card p {
+    padding: 10px;
+}
+
+.card span {
+    color: #d62828;
+    font-weight: bold;
+}
+
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.galeria img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.galeria img:hover {
+    transform: scale(1.6);
+}
+
+
+.sobre {
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+}
+
+button {
+    background: #ff4d6d;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+
+footer {
+    background: #1d1d1d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
