@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Companhia Express</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<nav class="menu">
+    <div class="logo">Companhia Express</div>
+
+    <div class="links">
+        <a href="#inicio">Início</a>
+        <a href="#perfis">Perfis</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </div>
+</nav>
+
+
+<section id="inicio" class="banner">
+    <div class="banner-conteudo">
+        <h1>Escolha sua Companhia</h1>
+        <p>Conectando pessoas para momentos especiais</p>
+    </div>
+</section>
+
+
+<section id="perfis" class="cardapio">
+    <h2>Perfis Disponíveis</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="Luigi.jpg" class="principal">
+            <h3>Luigi</h3>
+
+            <p>
+                Luigi é um cara fofinho, saudável sua fruta favorita 
+                é maçã e ama dormir
+            </p>
+
+            <span>R$ 50/hora</span>
+
+            <div class="galeria">
+                <img src="outroluigi1.jpg">
+                <img src="outroluigi2.jpg">
+            </div>
+
+            <button onclick="contratar('Luigi')">Contratar</button>
+        </div>
+
+
+        <div class="card">
+            <img src="Galindo.jpg" class="principal">
+            <h3>Galindo</h3>
+
+            <p>
+                Ele é um cara atencioso mas abraça demais as vezes
+                mas sempre vai te escutar
+            </p>
+
+            <span>R$ 60/hora</span>
+
+            <div class="galeria">
+                <img src="outrogalindo.jpg">
+            </div>
+
+            <button onclick="contratar('Galindo')">Contratar</button>
+        </div>
+
+
+        <div class="card">
+            <img src="Abad.jpg" class="principal">
+            <h3>Abad</h3>
+
+            <p>
+                O mais fofinho que temos e o mais engraçados,
+                companheiro e sempre vai te fazer rir
+            </p>
+
+            <span>R$ 55/hora</span>
+
+            <div class="galeria">
+                <img src="outroAbad.jpg">
+                <img src="outroAbad2.jpg">
+            </div>
+
+            <button onclick="contratar('Abad')">Contratar</button>
+        </div>
+
+    </div>
+</section>
+
+
+
+<section id="diferenciais">
+    <h2>Diferenciais</h2>
+
+    <ul>
+        <li>Atendimento rápido</li>
+        <li>Pessoas confiáveis</li>
+        <li>Experiência única</li>
+    </ul>
+</section>
+
+
+
+<section id="galeria">
+    <h2>Galeria</h2>
+
+    <div class="galeria">
+        <img src="Luigi.jpg">
+        <img src="Galindo.jpg">
+        <img src="Abad.jpg">
+    </div>
+</section>
+
+
+<section id="sobre" class="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Plataforma para encontrar companhia para eventos e momentos especiais.</p>
+</section>
+
+
+<section id="contato" class="contato">
+    <h2>Contato</h2>
+
+    <form>
+        <input type="text" placeholder="Nome">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Mensagem"></textarea>
+        <button>Enviar</button>
+    </form>
+</section>
+
+
+<footer>
+    <h3>Companhia Express</h3>
+</footer>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
